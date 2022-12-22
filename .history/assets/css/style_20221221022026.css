@@ -1,0 +1,179 @@
+* {
+    padding: 0px; 
+    margin: 0px; 
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+
+}
+
+#header {
+    height: 46.5px;
+    background-color: black;
+}
+
+.nav {
+    display: inline-block;
+}
+
+.nav > li {
+    display: inline-block;
+    padding: 12px 24px;
+    position: relative;
+}
+
+.nav > li > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    line-height: 22.5px; 
+}
+
+.nav > li:hover {
+    background-color: grey; 
+}
+
+.nav > li:hover > a {
+    color: black; 
+
+}
+
+.subnav {
+    display: none;
+    position: absolute;
+    top: 46.5px; 
+    left: 0px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.subnav > li {
+    display: inline-block;
+    padding: 8px 16px;
+    width: 100%; 
+}
+
+.subnav > li > a {
+    text-decoration: none;
+    color: black; 
+}
+
+.subnav > li:hover {
+    background-color: grey;
+}
+
+.nav > li:hover .subnav {
+    display: block;
+}
+
+.fa-caret-down {
+    font-size: 14px;
+}
+
+#search-icon {
+    float: right;
+    padding: 12px 24px;   
+    cursor: pointer;
+}
+
+.fa-magnifying-glass {
+    color: white; 
+    line-height: 22.5px;
+}
+
+#search-icon:hover {
+    background-color: red;
+}
+
+
+#slider {
+    position: relative;
+    padding-top: 50%;
+    background: url(/assets/image/slider/chicago.jpg) top center / cover no-repeat; 
+
+}
+
+#slider-content {
+    position: absolute; 
+    bottom: 47px; 
+    width: 100%;
+    color: white; 
+    text-align: center;
+}
+
+#slider-content h3 {
+    font-weight: 400;
+}
+
+#slider-content p {
+    margin-top: 25px;
+}
+
+#content {
+
+}
+
+#the-band {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 16px; 
+}
+
+.section-name {
+    text-align: center;
+    
+}
+
+.section-name .name {
+    margin: 10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400; 
+}
+
+.section-name .slogan {
+    margin-bottom: 15px;
+    font-style: italic; 
+    opacity: 0.6;
+}
+
+#the-band-content {
+    text-align: justify;
+    margin-bottom: 15px;
+    line-height: 14px;
+}
+
+#member {
+    text-align: center;
+    padding: 32px;
+}
+
+.member-info {
+    display: inline-block;
+}
+
+.member-photo {
+    width: 60%;
+    margin-bottom: 16px;
+}
+
+.member-nick {
+    margin: 15px; 
+}
+
+#tour-dates { 
+    padding: 64px 16px; 
+    background-color: black;
+}
+
+#tour-dates .section-name {
+    color: white; 
+}
+
+#footer {
+
+}
